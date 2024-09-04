@@ -1,0 +1,367 @@
+*{
+    font-family: "Raleway", sans-serif;
+    padding: 0%;
+    margin: 0%;
+}
+header{
+    width: 100%;
+    height: 100%;
+    
+}
+.navsec{
+    display: flex;
+    justify-content:space-around;
+    height: 4rem;
+    width: 100%;
+}
+.lefnav{
+    width: 5rem;
+    height: 100%;
+
+}
+.logo{
+    width: 200px;
+    height: 50px;
+    background-image: url(nothing-logo_e24ba9e1-935d-4c3f-92e6-fb04dffe660c_x320.png);
+    background-size:cover;
+   
+}
+.navcenter ul {
+    display: flex;
+    gap:20px;
+    font-size:18px;
+    list-style: none;
+    font-weight: 550;
+    padding-right: 50px;
+    
+    align-items: center;
+    
+    
+    
+}
+.navcenter{
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+.rightnav{
+   align-self: center;
+}
+
+
+/* section2 */
+.container_1{
+    display: flex;
+    margin:auto;
+
+}
+.container_2{
+    display: flex;
+    margin:auto;
+
+}
+.container_3{
+    display: flex;
+    margin:auto;
+
+}
+.container_4{
+    display: flex;
+    margin:auto;
+
+}
+.container_5{
+    display: flex;
+    margin:auto;
+   
+
+}
+
+
+.container_6{
+    display: flex;
+    margin:auto;
+   
+
+}
+.container_7{
+    display: flex;
+    margin:auto;
+   
+
+}
+.container_8{
+    display: flex;
+    margin:auto;
+   
+
+}
+.container_9{
+    display: flex;
+    margin:auto;
+   
+
+}
+
+
+
+
+
+
+.container-item-left{
+    height: 700px;
+    width: 70%;
+    overflow: hidden;
+}
+.container-item-right{
+    height: 700px;
+    width: 30% ;
+    display: flex;
+    align-items: flex-end;
+    
+  
+    
+}
+.container-item-left img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    position: relative;
+
+    
+}
+.container-item-right .container-info{
+     width: 100%;
+     height: 400px;
+     padding-left:10px;
+     
+
+}
+ .container-info h2{
+    
+    font-weight: 700;
+    font-size: 50px;
+    margin:0px 0px 22px 0px;
+
+    
+
+}
+.container-info p{
+    font-family: "SUSE", sans-serif;
+    font-size: 16px;
+    margin:40px 0px 22px 0px;
+
+
+}
+
+.container-info button{
+    height: 50px;
+    width: 100% ;
+    background-color:#002f6C;
+    border-radius: 25px;
+    font-size: 18px;
+    color: white;
+    margin:40px 0px 22px 0px;
+
+    
+
+
+
+}
+.container-info button:hover{
+    transform: scale(1.05);
+
+}
+.section2{
+    height: 500px ;
+    width:100%;
+     border-bottom: 2px solid white;
+}
+
+.sec2container{
+    height: 350px;
+    width:100%;
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+     gap:50px;
+    
+    
+   
+
+}
+.sect2continer-item{
+   height: 150;
+   width:350px;
+   
+    text-align: center;
+
+
+}
+.sect2continer-item  h1{
+    font-size: 50px;
+    padding:0 15px;
+    text-align: center;
+
+
+}
+.sect2continer-item  p{
+    font-size: 30px;
+    padding:0 15px;
+    
+   
+
+
+}
+
+
+
+.section3{
+    width: 100%;
+    height: 400px;
+    margin: 0%;
+    background-color:black;
+}
+
+
+
+
+.sec3Container{
+    width:100%;
+    height:100%;
+    
+    display: flex;
+    
+    justify-content: space-around;
+    align-content: center;
+    
+
+}
+
+.sec3item{
+    width:20%;
+    height:80%;
+    color:white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    
+}
+.sec3Container .sec3item ul{
+    
+    list-style: none;
+    font-size: 18px;
+}
+.sec3Container .sec3item p{
+    
+    list-style: none;
+}
+.head{
+    font-size: 18px;
+    padding-bottom:10px;
+}
+.sec3tem h1{
+    line-height: 1.8;
+    font-weight: 500;
+}
+.inputbox{
+    width:40%;
+    height:80%;
+    color:white;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+
+    
+    
+
+}
+.inputbox input{
+    border-radius: 15px;
+    border-color:2px solid rgb(251, 246, 246) ;
+    color:white;
+    background-color: black;
+    height: 60px;
+    width: 450px;
+    font-size: 20px;
+    padding-left: 60px;
+}
+ .footer{
+    border-top: 2px solid white;
+    height: 100px;
+    width: 100%;
+    background-color: black;
+ }
+
+ .footerSec{
+    height: 100%;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    
+ }
+
+ .leftfoot{
+    height: 100%;
+    width: 50%;
+
+ }
+ .leftfoot ul{
+    
+    display: flex;
+    color: white;
+    list-style: none;
+    gap:10px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-top: 20px;
+
+ }
+ .rightfoot{
+    height: 100%;
+    width:50%;
+    
+ }
+
+
+
+ .rightfoot ul{
+    height:100%;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+
+
+ }
+ #link{
+    font-size: 20px;
+    
+    padding-left: 100px;
+    color: white;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
